@@ -18,7 +18,7 @@
 
 	<test name="Login Page Test chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="124.0" />
+		<parameter name="browserversion" value="139.0.7258.66" />
 		<parameter name="testname" value="OpenCart-Login Page Test" />
 
 
@@ -29,7 +29,7 @@
 	</test>
 
 
-	<!-- <test name="Accounts Page Test_chrome_113">
+	 <test name="Accounts Page Test_chrome_113">
 		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="113.0" />
 		<parameter name="testname"
@@ -39,7 +39,7 @@
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
-	</test> -->
+	</test> 
 
 	<test name="Accounts Page Test_firefox_124">
 		<parameter name="browser" value="firefox" />
@@ -55,7 +55,7 @@
 
 	<test name="ProductInfo Page Test">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="123.0" />
+		<parameter name="browserversion" value="139.0.7258.66" />
 		<parameter name="testname"
 			value="OpenCart-ProductInfo Page Test" />
 
@@ -65,13 +65,23 @@
 		</classes>
 	</test>
 
-	<!-- <test name="Reg Page Test"> <parameter name="browser" value="chrome" 
-		/> <classes> <class name="com.qa.opencart.tests.RegPageTest" /> </classes> 
-		</test> <test name="Search Results Page Test"> <parameter name="browser" 
-		value="chrome" /> <classes> <class name="com.qa.opencart.tests.SearchResultsTest" 
-		/> </classes> </test> -->
+	 <test name="Reg Page Test">
+         <parameter name="browser" value="chrome"/>
+         <parameter name="browserversion" value="113.0" />
+         <parameter name="testname" value="OpenCart=Reg Page Test" />
+         <classes>
+             <class name="com.qa.opencart.tests.RegPageTest" />
+         </classes>
 
+     </test>
 
-
-
+    <test name="Search Results Page Test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserversion" value="113.0" />
+        <parameter name="testname" value="OpenCart-Search Page Test" />
+        <classes>
+            <class name="com.qa.opencart.tests.SearchResultsTest"/> 
+        </classes> 
+    </test>
+    
 </suite>
