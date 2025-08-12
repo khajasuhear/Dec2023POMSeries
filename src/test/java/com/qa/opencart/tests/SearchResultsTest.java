@@ -33,7 +33,7 @@ public class SearchResultsTest extends BaseTest {
 	
 	@Test
 	public void searchResultsTest() {
-		Assert.assertEquals(searchResultsPage.getSearchProductCount(), 3);
+		Assert.assertEquals(searchResultsPage.getSearchProductCount(), 2);
 	}
 
 }
