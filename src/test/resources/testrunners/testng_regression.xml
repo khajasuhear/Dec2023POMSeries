@@ -75,13 +75,13 @@
 
 <!--     </test>-->
 
-<!--    <test name="Search Results Page Test">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="browserversion" value="113.0" />-->
-<!--        <parameter name="testname" value="OpenCart-Search Page Test" />-->
-<!--        <classes>-->
-<!--            <class name="com.qa.opencart.tests.SearchResultsTest"/> -->
-<!--        </classes> -->
-<!--    </test>-->
-<!--    -->
+    <test name="Search Results Page Test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserversion" value="113.0" />
+       <parameter name="testname" value="OpenCart-Search Page Test" />
+        <classes>
+            <class name="com.qa.opencart.tests.SearchResultsTest"/>
+        </classes>
+    </test>
+
 </suite>
